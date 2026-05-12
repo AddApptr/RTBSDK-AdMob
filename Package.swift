@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AddApptr/RTBSDK.git", exact: "1.10.0"),
+        .package(url: "https://github.com/AddApptr/RTBSDK.git", exact: "1.10.0-beta1"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", .upToNextMinor(from: "12.14.0")),
     ],
     targets: [
@@ -31,8 +31,8 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "GraviteRTBAdMobMediationAdapter",
-            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.10.0/GraviteRTBAdMobMediationAdapter.zip",
-            checksum: "0000000000000000000000000000000000000000000000000000000000000000"
+            url: "https://ios-sdk-rtb.gravite.net/RTBSDK_SPM/1.10.0-beta1/GraviteRTBAdMobMediationAdapter.zip",
+            checksum: "f889ea35b45cee43d37d7cedae61123073acbc2af4ec3e0e892f5b5af032347e"
         ),
     ]
 )
