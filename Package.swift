@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AddApptr/RTBSDK.git", exact: "1.10.0-beta1"),
+        .package(url: "https://github.com/AddApptr/RTBSDK.git", exact: "1.10.0-beta2"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", .upToNextMinor(from: "12.14.0")),
     ],
     targets: [
